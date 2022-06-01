@@ -1,0 +1,174 @@
+*{
+    font-family: 'Koulen', cursive;
+}
+
+
+/* HEADER */
+/* -- MOBILE -- */
+@media (max-width: 576px) {
+    .navbar-brand img{    
+        width: 50px;
+    }
+    .container-fluid{
+        width: 95%;
+    }
+    .nav-link{
+        font-size: 18px;        
+    }
+}
+/* -- TABLET -- */
+@media (min-width: 576px) and (max-width: 992px) {
+    .navbar-brand img{    
+        width: 60px; 
+    }
+    .container-fluid{
+        width: 90%;
+    }
+    .nav-link{
+        font-size: 19px;
+    }
+
+    
+}
+/* -- DESKTOP -- */
+@media (min-width: 992px) {
+    .navbar-brand img {    
+        width: 80px;
+    
+    }
+    .container-fluid{
+        width: 80%;
+    }
+    .nav-link{
+        font-size: 22px;
+
+    }
+    .nav-item__a{
+        
+    }
+    
+}
+
+
+
+
+/* === FOOTER === */
+
+/* .footer {
+    margin-top: auto;
+    padding: 1em 0;
+}
+ */
+
+/* === RESPONSIVE === */ 
+/* -- MOBILE -- */
+
+@media (max-width: 576px) {
+    .text-muted {
+        font-size: 16px;
+    } 
+
+}
+
+    /* -- TABLET -- */
+    @media (min-width: 576px) and (max-width: 992px) {
+        .text-muted {
+            font-size: 16px;
+        } 
+    
+}
+
+    /* -- DESKTOP -- */
+    @media (min-width: 992px) {  
+        .text-muted {
+            font-size: 20px;
+        }       
+
+}
+
+/* FIN FOOTER */
+
+
+/* === INDEX === */
+.contenedor-boton button {
+    background-color: red;
+}
+
+
+
+
+
+/* CONTACTO */
+
+.section-form {
+    display: flex;    
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.formulario {
+    width: 60%;
+}
+.titulo-form{
+    text-align: start;
+    padding-bottom: 10px;
+}    
+
+
+/* UBICACION */
+
+.titulo-ubicacion h2 {
+    font-size: 40px;
+    padding-top: 25px ;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.ubicacion p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    padding-bottom: 20px;
+}
+.iframe {    
+    text-align: center;  
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+/* -- MOBILE -- */
+@media (max-width: 576px) {
+    iframe {
+        width: 400px;
+        height: 400px;
+    }
+}
+/* -- TABLET -- */
+@media (min-width: 576px) and (max-width: 992px) {
+    
+    iframe {    
+        width: 550px;
+        height: 500px; 
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+/* -- DESKTOP -- */
+@media (min-width: 992px) {
+    
+    iframe {    
+        width: 700px;
+        height: 600px; 
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+/* PROMOS */
+
+.titulo-promos {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
